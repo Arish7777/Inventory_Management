@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("images/leftmenu.png");
+    background-size: cover; /* Scales the image to cover the entire background */
+    background-position: center center; /* Centers the image in both X and Y axis */
+    background-repeat: repeat;
+    min-height: 100vh; /* Ensures the image doesn't repeat */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #004d40;
+}
